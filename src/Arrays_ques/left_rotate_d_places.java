@@ -16,10 +16,7 @@ public class left_rotate_d_places {
         reverse(array,0,n-1);
 
         System.out.println(Arrays.toString(array));
-
-
     }
-
     public static void reverse(int[]arr,int s,int e){
         while(e>=s){
             int temp=arr[s];
